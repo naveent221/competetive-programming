@@ -21,7 +21,7 @@ public class Solution1 {
     }
 
     public static void main(String[] args) {
-        int[] arr={7,4,3,2};
+        int[] arr={1,0,3,4,8};
         
         int a=getMaxProfit(arr);
         

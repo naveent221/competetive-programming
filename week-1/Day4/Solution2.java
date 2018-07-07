@@ -1,4 +1,4 @@
-// O(n)
+// O(n)//26^n
 import org.junit.Test;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;

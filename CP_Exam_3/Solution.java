@@ -9,38 +9,26 @@ public class Solution
         {
             
             arr[i] = n % 2;
-            //System.out.println(arr[i]);
+            
             n = n / 2;
-            //System.out.println(n);
+            
             i++;
         }
-        //int z=arr.length/arr[0];
-        //System.out.print(z);
-        //int k=i-1;
-        //System.out.println(k);
-        // while(k!=7)
-        // {
-        // 	arr[k]=0;
-        // 	k++;
-        // 	//System.out.println(k);
-
-        // }
+        
         return arr;
     }
-    static void res(int x,int y)
+    static void res(int x)
     {
     	int[] arr1=dec(x);
 		   
-		int[] arr2=dec(y);
+		
 		int c=0;
-		   for (int j = 7; j >= 0; j--)
+		   for (int j = 0; j <arr1.length; j++)
 		   {
-            if(arr1[j]!=arr2[j])
-            {
-            	c=c+1;
-            }
+		   	System.out.println(arr1[j]);
+            
            }
-           System.out.println(c);
+           
 
     }
   
@@ -48,11 +36,11 @@ public class Solution
      
 	public static void main(String[] args) {
 		
-		res(25,30);
-		res(1,4);
-		res(100,250);
-		res(1,30);
-		res(0,255);
+		//res(0);
+		//res(55);
+		//res(-5);
+		//res(12354);
+		res(6);
 		
 
 	}
